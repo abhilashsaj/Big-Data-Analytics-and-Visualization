@@ -24,10 +24,6 @@ public class Recommender {
           try{ 
 	//Creating data model 
 	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
-	System.out.println("\nCreated data model");
-	System.out.println(datamodel);
-
-
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new PearsonCorrelationSimilarity(datamodel);
 	System.out.println("\nCreated user similarity for Pearson Correlation");
@@ -36,7 +32,6 @@ public class Recommender {
 	//Create UserRecomender 
 	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
-	System.out.println("\nCreated recommendations");
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
@@ -44,12 +39,10 @@ public class Recommender {
 	  System.out.println(e); 
 	  } 
 
+
 	try{ 
 	//Creating data model 
 	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
-	System.out.println("\nCreated data model");
-	System.out.println(datamodel);
-
 
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new LogLikelihoodSimilarity(datamodel);
@@ -59,21 +52,16 @@ public class Recommender {
 	//Create UserRecomender 
 	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
-	System.out.println("\nCreated recommendations");
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
          }catch(Exception e) { 
 	  System.out.println(e); 
 	  } 
-	System.out.println("\n");
-	
+
 	try{ 
 	//Creating data model 
 	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
-	System.out.println("\nCreated data model");
-	System.out.println(datamodel);
-
 
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new TanimotoCoefficientSimilarity(datamodel);
@@ -83,22 +71,17 @@ public class Recommender {
 	//Create UserRecomender 
 	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
-	System.out.println("\nCreated recommendations");
+
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
          }catch(Exception e) { 
 	  System.out.println(e); 
 	  } 
-	System.out.println("\n");
-		
 
 	try{ 
 	//Creating data model 
 	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
-	System.out.println("\nCreated data model");
-	System.out.println(datamodel);
-
 
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new EuclideanDistanceSimilarity(datamodel);
@@ -108,22 +91,17 @@ public class Recommender {
 	//Create UserRecomender 
 	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
-	System.out.println("\nCreated recommendations");
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
          }catch(Exception e) { 
 	  System.out.println(e); 
 	  } 
-	System.out.println("\n");
-	
+
 	
 	try{ 
 	//Creating data model 
 	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
-	System.out.println("\nCreated data model");
-	System.out.println(datamodel);
-
 
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new SpearmanCorrelationSimilarity(datamodel);
@@ -133,14 +111,12 @@ public class Recommender {
 	//Create UserRecomender 
 	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
-	System.out.println("\nCreated recommendations");
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
          }catch(Exception e) { 
 	  System.out.println(e); 
 	  } 
-	System.out.println("\n");
 
 	
 
