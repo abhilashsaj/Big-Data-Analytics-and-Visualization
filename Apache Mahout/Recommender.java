@@ -21,10 +21,13 @@ public class Recommender {
  	//Creating UserNeighbourHHood object. 
 	UserNeighborhood userneighborhood = new ThresholdUserNeighborhood(3.0, 	usersimilarity, datamodel); 
 	//Create UserRecomender 
-	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
+	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
+	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
 	for (RecommendedItem recommendation : recommendations) { 
 	       System.out.println(recommendation); 
 	}
-         }catch(Exception e) { } 
+         }catch(Exception e) { 
+	  System.out.println(e); 
+	  } 
      } 
 } 
