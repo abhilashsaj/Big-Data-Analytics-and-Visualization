@@ -4,6 +4,6 @@
 
 For compilation and execution
 
-`$ javac -cp "/usr/lib/mahout/*:/usr/lib/mahout/lib/*:." RecommenderIntro.java `
+`$ javac -cp "/usr/lib/mahout/*:/usr/lib/mahout/lib/*:." Recommender.java `
 
-`$ java -cp "/usr/lib/mahout/*:/usr/lib/mahout/lib/*:." RecommenderIntro`
+`$ java -cp "/usr/lib/mahout/*:/usr/lib/mahout/lib/*:." Recommender`
