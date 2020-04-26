@@ -2,6 +2,8 @@
 
 ## Apache Mahout
 
+### Recommender Example
+
 For compilation and execution
 
 `$ javac -cp "/usr/lib/mahout/*:/usr/lib/mahout/lib/*:." Recommender.java `
