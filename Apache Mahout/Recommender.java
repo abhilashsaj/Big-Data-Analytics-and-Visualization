@@ -1,4 +1,5 @@
-import java.io.File;                                                                   import java.util.List; 
+import java.io.File;                                                                   
+import java.util.List; 
 import org.apache.mahout.cf.taste.impl.model.file.FileDataModel; 
 import org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood; 
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender; 
@@ -14,7 +15,7 @@ public class Recommender {
      public static void main(String args[]){ 
           try{ 
 	//Creating data model 
-	DataModel datamodel = new FileDataModel(new File("/path/to/dataset.csv ")); 
+	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
 	//Creating UserSimilarity object. 
 	UserSimilarity usersimilarity = new PearsonCorrelationSimilarity(datamodel);
  	//Creating UserNeighbourHHood object. 
