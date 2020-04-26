@@ -5,6 +5,7 @@ import org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender; 
 import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity; 
 import org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarity; 
+import org.apache.mahout.cf.taste.impl.similarity.TanimotoCoefficientSimilarity;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.neighborhood.UserNeighborhood;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
@@ -63,7 +64,30 @@ public class Recommender {
 	  } 
 	System.out.println("\n");
 	
+	try{ 
+	//Creating data model 
+	DataModel datamodel = new FileDataModel(new File("Sample_Data.csv")); 
+	System.out.println("\nCreated data model");
+	System.out.println(datamodel);
 
+
+	//Creating UserSimilarity object. 
+	UserSimilarity usersimilarity = new TanimotoCoefficientSimilarity(datamodel);
+	System.out.println("\nCreated user similarity for TanimotoCoefficient Similarity");
+ 	//Creating UserNeighbourHHood object. 
+	UserNeighborhood userneighborhood = new ThresholdUserNeighborhood(0.1, 	usersimilarity, datamodel); 
+	//Create UserRecomender 
+	UserBasedRecommender recommender = new 	GenericUserBasedRecommender(datamodel, userneighborhood, usersimilarity); 	
+	List<RecommendedItem> recommendations = recommender.recommend(2, 3); 
+	System.out.println("\nCreated recommendations");
+	for (RecommendedItem recommendation : recommendations) { 
+	       System.out.println(recommendation); 
+	}
+         }catch(Exception e) { 
+	  System.out.println(e); 
+	  } 
+	System.out.println("\n");
+	
 
 
      } 
