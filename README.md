@@ -45,6 +45,19 @@ This will take around 30 minutes because it takes time to test all the algorithm
   * Ubuntu 18.04
   * Apache Mahout 0.13.0 (preferred)
 
+## Apache Hue
+
+### Cloudera
+
+Access the Hue demo provided by Cloudera from the the URL https://demo.gethue.com/
+
+* Create a database in the Hue warehouse and execute any five DDL and DML commands in it. 
+
+* Observe the operations happening in the MapReduce Engine and HDFS after the execution of each command. 
+
+* After each step, take the screenshot and include it in a document file with proper description of it as per your obesrvation. 
+
+* Finally convert that doc file to pdf format and upload it here. 
 
 ## Clone
 
