@@ -45,6 +45,8 @@ This will take around 30 minutes because it takes time to test all the algorithm
   * Ubuntu 18.04
   * Apache Mahout 0.13.0 (preferred)
 
+<br/>
+
 ## Apache Hue
 
 ### Cloudera
@@ -59,6 +61,7 @@ Access the Hue demo provided by Cloudera from the the URL https://demo.gethue.co
 
 * Finally convert that doc file to pdf format and upload it here. 
 
+<hr/>
 ## Clone
 
 `git clone https://github.com/abhilashsaj/Big-Data-Analytics-and-Visualization.git `
