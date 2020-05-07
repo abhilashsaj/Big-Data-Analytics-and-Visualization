@@ -62,6 +62,7 @@ Access the Hue demo provided by Cloudera from the the URL https://demo.gethue.co
 * Finally convert that doc file to pdf format and upload it here. 
 
 <hr/>
+
 ## Clone
 
 `git clone https://github.com/abhilashsaj/Big-Data-Analytics-and-Visualization.git `
