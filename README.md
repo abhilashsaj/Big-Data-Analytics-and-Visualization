@@ -42,8 +42,8 @@ This will take around 30 minutes because it takes time to test all the algorithm
 ### Requirements
 
   * Java
-  * Ubuntu 18.04
-  * Apache Mahout 0.13.0 (preferred)
+  * Ubuntu
+  * Apache Mahout 0.13.0
 
 <br/>
 
