@@ -65,7 +65,9 @@ Access the Hue demo provided by Cloudera from the the URL https://demo.gethue.co
 
 Steps
   * Create an AWS account using Educate(no credit card) or Standard mode
-  * 
+  * Visit quicksight through console and create an account
+  * [Blog](https://aws.amazon.com/blogs/big-data/10-visualizations-to-try-in-amazon-quicksight-with-sample-data/)  Go to the third section (Visualizations for a data scientist) in the  AWS Big Data Blog. Here you can see two visualizations based on the temperature readings from the road weather information stations deployed at different location in US cities. The station has two sensors where the first one measures the temperature of street surface and second one measures the ambient air temperature at the station each second. 
+
 <hr/>
 
 ## Clone
