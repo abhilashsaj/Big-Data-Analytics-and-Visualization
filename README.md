@@ -67,7 +67,8 @@ Steps
   * Create an AWS account using Educate(no credit card) or Standard mode
   * Visit quicksight through console and create an account
   * [Blog](https://aws.amazon.com/blogs/big-data/10-visualizations-to-try-in-amazon-quicksight-with-sample-data/)  Go to the third section (Visualizations for a data scientist) in the  AWS Big Data Blog. Here you can see two visualizations based on the temperature readings from the road weather information stations deployed at different location in US cities. The station has two sensors where the first one measures the temperature of street surface and second one measures the ambient air temperature at the station each second. 
-
+    * Visualize the max air temperature of any one city from different RWI station sensors given in the dataset. Download and              use the .csv file as the dataset from the “Download and resources” link (https://bit.ly/2zyvqJR)
+    * Visualize the minimum temperature of the road surface at different times as shown in the second graph with station                      names at the right hand side. This visual can predict the road conditions at different locations during a particular time of              the year.
 <hr/>
 
 ## Clone
