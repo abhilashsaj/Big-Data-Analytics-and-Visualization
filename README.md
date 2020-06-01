@@ -71,6 +71,8 @@ Steps
     * Visualize the minimum temperature of the road surface at different times as shown in the second graph with station                      names at the right hand side. This visual can predict the road conditions at different locations during a particular time of              the year.
       * Start New Analysis
       * Upload dataset
+      * Creat Line Chart with DateTime on x axis, Temp(min) as values, StationNames as color
+      
 <hr/>
 
 ## Clone
