@@ -71,13 +71,13 @@ Steps
     * Visualize the minimum temperature of the road surface at different times as shown in the second graph with station                      names at the right hand side. This visual can predict the road conditions at different locations during a particular time of              the year.
     
       1.
-      * Start New Analysis
-      * Upload dataset
-      * Create Vertical Bar Graph (Max of Airtemperature by Datetime and Stationname)
-      * Datetime on x-axis, Airtemp(max) values and StationNames as color   
+          * Start New Analysis
+          * Upload dataset
+          * Create Vertical Bar Graph (Max of Airtemperature by Datetime and Stationname)
+          * Datetime on x-axis, Airtemp(max) values and StationNames as color   
       
       2.
-      * Create Line Chart with DateTime on x axis, Temp(min) as values, StationNames as color
+          * Create Line Chart with DateTime on x axis, Temp(min) as values, StationNames as color
       
 <hr/>
 
