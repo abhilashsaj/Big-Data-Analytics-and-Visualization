@@ -74,10 +74,10 @@ Steps
           * Start New Analysis
           * Upload dataset
           * Create Vertical Bar Graph (Max of Airtemperature by Datetime and Stationname)
-          * Datetime on x-axis, Airtemp(max) values and StationNames as color   
+          * Datetime on x-axis, Airtemp(max) values and StationNames as color  (apply filter - optional)
       
       2.
-          * Create Line Chart with DateTime on x axis, Temp(min) as values, StationNames as color
+          * Create Line Chart with DateTime on x axis, Temp(min) as values, StationNames as color (apply filter - optional)
     * After creating both the visuals, go to the “Share” button on the top right hand side of your QuickSight page and click on “Publish dashboard” and give a name to your new dashboard. This option will publish your newly created dashboard with two visuals so that others can be invited to view or edit it. Also the dashboard can be embedded in a web/mobile application once it is published.
 
     * Go to the “Accounts” button at the extreme right hand side of the QuikSight window which displays your unique QS account number (eg. 914988550782) and choose the option “Manage QuickSight”. Under the Manage Users option click on “Invite users” button and enter the email-id binupk78@gmail.com and invite me as “AUTHOR” to view and evaluate your dashboard!!
