@@ -84,6 +84,10 @@ Steps
 
 <hr/>
 
+## Apache Flume and Twitter Sentiment Analysis
+
+Presentation added
+
 ## Clone
 
 `git clone https://github.com/abhilashsaj/Big-Data-Analytics-and-Visualization.git `
